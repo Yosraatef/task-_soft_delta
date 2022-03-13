@@ -1,0 +1,89 @@
+
+body{
+  direction: rtl;
+  text-align: right ;
+}
+.dropdown-menu{
+  text-align: right !important;
+}
+
+/* Start header*/
+
+.mobile_menu_toggler {
+  left: 28px;
+}
+
+
+/* start footer*/
+
+.go-top {
+  right: 10px;
+}
+
+
+
+.sub_title::before {
+  right: 0;
+}
+
+
+/* start about section */
+.about__section::before {
+  left: 0;
+}
+
+/* start features section */
+
+.read__more {
+  float: left;
+}
+
+.more__link {
+  float: left;
+}
+
+@media (min-width: 992px) {
+  .feature__thumb {
+    left: 0;
+  }
+  .news__section::before {
+    right: 0;
+  }
+  .main__wrapper__section::before {
+    left: 0;
+  }
+  .our_goals_section::before {
+    left: 0;
+  }
+  .stats__row__wrapper::before {
+    right: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .feat__card:not(:last-of-type)::before {
+    left: 0;
+  }
+}
+
+
+/* start about us page */
+.top_title::before {
+  right: 20px;
+}
+
+/* start services page */
+.services__icon {
+  left: 0;
+}
+
+/* start contact us page */
+.contact__form .form_group .form__icon {
+  right: 34px;
+}
+
+/* start advice page */
+.upload__icon {
+  left: 2px;
+}
+

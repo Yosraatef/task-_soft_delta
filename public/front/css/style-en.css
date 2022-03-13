@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+  direction: ltr;
+  text-align: left;
+}
+
+
+/* Start header*/
+
+.mobile_menu_toggler {
+  left: 28px;
+}
+
+
+
+
+/* start footer*/
+
+.go-top {
+  left: 10px;
+}
+
+
+.sub_title::before {
+  left: 0;
+}
+
+
+/* start about section */
+.about__section::before {
+  right: 0;
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+}
+
+/* start features section */
+
+.read__more {
+  float: right;
+}
+
+.read__more i {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.more__link {
+  float: right;
+}
+
+.more__link i {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+@media (min-width: 992px) {
+  .feature__thumb {
+    right: 0;
+  }
+  .news__section::before {
+    left: 0;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+  }
+  .main__wrapper__section::before {
+    right: 0;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+  }
+  .our_goals_section::before {
+    right: 0;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+  }
+  .stats__row__wrapper::before {
+    left: 0;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+  }
+}
+
+@media (min-width: 576px) {
+  .feat__card:not(:last-of-type)::before {
+    right: 0;
+  }
+}
+
+
+/* start about us page */
+.top_title::before {
+  left: 20px;
+}
+
+/* start services page */
+.services__icon {
+  right: 0;
+}
+
+/* start contact us page */
+.contact__form .form_group .form__icon {
+  left: 34px;
+}
+
+/* start advice page */
+.upload__icon {
+  right: 2px;
+}
